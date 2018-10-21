@@ -38,8 +38,8 @@ class SongsViewController: UITableViewController {
         
         let cell = UITableViewCell(style: .subtitle, reuseIdentifier: "songCell")
         
-        cell.textLabel?.text = song.trackName
-        cell.detailTextLabel?.text = "by \(song.artistName)"
+        cell.textLabel?.text = song.title
+        cell.detailTextLabel?.text = "on \(song.start)"
         
         return cell
     }
@@ -52,11 +52,6 @@ class SongsViewController: UITableViewController {
         
         alert.addTextField {textField in
             textField.placeholder = "Email/User Name"
-        }
-        
-        alert.addTextField {textField in
-            textField.placeholder = "Password"
-            textField.isSecureTextEntry = true
         }
         
         alert.addAction(UIAlertAction(
@@ -73,12 +68,8 @@ class SongsViewController: UITableViewController {
         !text.isEmpty else {
             return
         }
-        guard let text2 = alert.textFields?.last?.text,
-        !text.isEmpty else {
-            return
-        }
+
             print(text)
-            print(text2)
             self.performSearch(with: text)
                 
         }))
@@ -89,36 +80,36 @@ class SongsViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let song = songs[indexPath.row]
         
-        let playerController = AVPlayerViewController()
-        let player = AVPlayer(url: URL(string: song.previewUrl)!)
-        playerController.player = player
+//        let playerController = AVPlayerViewController()
+//        let player = AVPlayer(url: URL(string: song.previewUrl)!)
+//        playerController.player = player
+//
+//        present(playerController, animated: true,
+//                completion: {player.play()
+//
+//        })
         
-        present(playerController, animated: true,
-                completion: {player.play()
-                    
-        })
-        
-        if let data = try? Data(contentsOf: URL(string: song.artworkUrl)!),
-            let artwork = UIImage(data: data)
-        
-        {
-            let imageView = UIImageView(image:artwork)
-            imageView.translatesAutoresizingMaskIntoConstraints = false
-            imageView.contentMode = .scaleAspectFit
-            
-            let contentView = playerController.contentOverlayView!
-            contentView.addSubview(imageView)
-            
-            NSLayoutConstraint.activate([
-                imageView.centerXAnchor.constraint(equalTo: contentView.centerXAnchor),
-                imageView.centerYAnchor.constraint(equalTo: contentView.centerYAnchor),
-                imageView.widthAnchor.constraint(equalTo: contentView.widthAnchor),
-                imageView.widthAnchor.constraint(equalTo: contentView.widthAnchor)
-                ])
-            
-            DispatchQueue.main.asyncAfter(deadline: .now() + 30, execute:
-                {playerController.dismiss(animated: true)
-            })
-        }
+//        if let data = try? Data(contentsOf: URL(string: song.artworkUrl)!),
+//            let artwork = UIImage(data: data)
+//
+//        {
+//            let imageView = UIImageView(image:artwork)
+//            imageView.translatesAutoresizingMaskIntoConstraints = false
+//            imageView.contentMode = .scaleAspectFit
+//
+//            let contentView = playerController.contentOverlayView!
+//            contentView.addSubview(imageView)
+//
+//            NSLayoutConstraint.activate([
+//                imageView.centerXAnchor.constraint(equalTo: contentView.centerXAnchor),
+//                imageView.centerYAnchor.constraint(equalTo: contentView.centerYAnchor),
+//                imageView.widthAnchor.constraint(equalTo: contentView.widthAnchor),
+//                imageView.widthAnchor.constraint(equalTo: contentView.widthAnchor)
+//                ])
+//
+//            DispatchQueue.main.asyncAfter(deadline: .now() + 30, execute:
+//                {playerController.dismiss(animated: true)
+//            })
+        //}
     }
 }

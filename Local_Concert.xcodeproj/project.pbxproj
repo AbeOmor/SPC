@@ -12,9 +12,9 @@
 		30607F97217BB593005789ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30607F95217BB593005789ED /* Main.storyboard */; };
 		30607F99217BB593005789ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30607F98217BB593005789ED /* Assets.xcassets */; };
 		30607F9C217BB593005789ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30607F9A217BB593005789ED /* LaunchScreen.storyboard */; };
-		30607FA7217BB593005789ED /* TunesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30607FA6217BB593005789ED /* TunesTests.swift */; };
-		30607FB2217BB593005789ED /* TunesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30607FB1217BB593005789ED /* TunesUITests.swift */; };
-		30607FC0217BBD58005789ED /* PrivacySettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30607FBF217BBD58005789ED /* PrivacySettings.swift */; };
+		30607FA7217BB593005789ED /* Local_ConcertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30607FA6217BB593005789ED /* Local_ConcertTests.swift */; };
+		30607FB2217BB593005789ED /* Local_ConcertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30607FB1217BB593005789ED /* Local_ConcertUITests.swift */; };
+		30607FC0217BBD58005789ED /* Local_Concert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30607FBF217BBD58005789ED /* Local_Concert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +35,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		30607F8E217BB593005789ED /* SPC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30607F8E217BB593005789ED /* Local_Concert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Local_Concert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30607F91217BB593005789ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30607F93217BB593005789ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		30607F96217BB593005789ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30607F98217BB593005789ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30607F9B217BB593005789ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30607F9D217BB593005789ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		30607FA2217BB593005789ED /* SPCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		30607FA6217BB593005789ED /* TunesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunesTests.swift; sourceTree = "<group>"; };
+		30607FA2217BB593005789ED /* Local_ConcertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Local_ConcertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30607FA6217BB593005789ED /* Local_ConcertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Local_ConcertTests.swift; sourceTree = "<group>"; };
 		30607FA8217BB593005789ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		30607FAD217BB593005789ED /* SPCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		30607FB1217BB593005789ED /* TunesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunesUITests.swift; sourceTree = "<group>"; };
+		30607FAD217BB593005789ED /* Local_ConcertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Local_ConcertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30607FB1217BB593005789ED /* Local_ConcertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Local_ConcertUITests.swift; sourceTree = "<group>"; };
 		30607FB3217BB593005789ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		30607FBF217BBD58005789ED /* PrivacySettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacySettings.swift; sourceTree = "<group>"; };
+		30607FBF217BBD58005789ED /* Local_Concert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Local_Concert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +79,9 @@
 		30607F85217BB592005789ED = {
 			isa = PBXGroup;
 			children = (
-				30607F90217BB593005789ED /* SPC */,
-				30607FA5217BB593005789ED /* SPCTests */,
-				30607FB0217BB593005789ED /* SPCUITests */,
+				30607F90217BB593005789ED /* Local_Concert */,
+				30607FA5217BB593005789ED /* Local_ConcertTests */,
+				30607FB0217BB593005789ED /* Local_ConcertUITests */,
 				30607F8F217BB593005789ED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,14 +89,14 @@
 		30607F8F217BB593005789ED /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				30607F8E217BB593005789ED /* SPC.app */,
-				30607FA2217BB593005789ED /* SPCTests.xctest */,
-				30607FAD217BB593005789ED /* SPCUITests.xctest */,
+				30607F8E217BB593005789ED /* Local_Concert.app */,
+				30607FA2217BB593005789ED /* Local_ConcertTests.xctest */,
+				30607FAD217BB593005789ED /* Local_ConcertUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		30607F90217BB593005789ED /* SPC */ = {
+		30607F90217BB593005789ED /* Local_Concert */ = {
 			isa = PBXGroup;
 			children = (
 				30607F91217BB593005789ED /* AppDelegate.swift */,
@@ -105,35 +105,35 @@
 				30607F98217BB593005789ED /* Assets.xcassets */,
 				30607F9A217BB593005789ED /* LaunchScreen.storyboard */,
 				30607F9D217BB593005789ED /* Info.plist */,
-				30607FBF217BBD58005789ED /* PrivacySettings.swift */,
+				30607FBF217BBD58005789ED /* Local_Concert.swift */,
 			);
-			path = SPC;
+			path = Local_Concert;
 			sourceTree = "<group>";
 		};
-		30607FA5217BB593005789ED /* SPCTests */ = {
+		30607FA5217BB593005789ED /* Local_ConcertTests */ = {
 			isa = PBXGroup;
 			children = (
-				30607FA6217BB593005789ED /* TunesTests.swift */,
+				30607FA6217BB593005789ED /* Local_ConcertTests.swift */,
 				30607FA8217BB593005789ED /* Info.plist */,
 			);
-			path = SPCTests;
+			path = Local_ConcertTests;
 			sourceTree = "<group>";
 		};
-		30607FB0217BB593005789ED /* SPCUITests */ = {
+		30607FB0217BB593005789ED /* Local_ConcertUITests */ = {
 			isa = PBXGroup;
 			children = (
-				30607FB1217BB593005789ED /* TunesUITests.swift */,
+				30607FB1217BB593005789ED /* Local_ConcertUITests.swift */,
 				30607FB3217BB593005789ED /* Info.plist */,
 			);
-			path = SPCUITests;
+			path = Local_ConcertUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		30607F8D217BB592005789ED /* SPC */ = {
+		30607F8D217BB592005789ED /* Local_Concert */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 30607FB6217BB593005789ED /* Build configuration list for PBXNativeTarget "SPC" */;
+			buildConfigurationList = 30607FB6217BB593005789ED /* Build configuration list for PBXNativeTarget "Local_Concert" */;
 			buildPhases = (
 				30607F8A217BB592005789ED /* Sources */,
 				30607F8B217BB592005789ED /* Frameworks */,
@@ -143,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = SPC;
+			name = Local_Concert;
 			productName = Tunes;
-			productReference = 30607F8E217BB593005789ED /* SPC.app */;
+			productReference = 30607F8E217BB593005789ED /* Local_Concert.app */;
 			productType = "com.apple.product-type.application";
 		};
-		30607FA1217BB593005789ED /* SPCTests */ = {
+		30607FA1217BB593005789ED /* Local_ConcertTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 30607FB9217BB593005789ED /* Build configuration list for PBXNativeTarget "SPCTests" */;
+			buildConfigurationList = 30607FB9217BB593005789ED /* Build configuration list for PBXNativeTarget "Local_ConcertTests" */;
 			buildPhases = (
 				30607F9E217BB593005789ED /* Sources */,
 				30607F9F217BB593005789ED /* Frameworks */,
@@ -161,14 +161,14 @@
 			dependencies = (
 				30607FA4217BB593005789ED /* PBXTargetDependency */,
 			);
-			name = SPCTests;
+			name = Local_ConcertTests;
 			productName = TunesTests;
-			productReference = 30607FA2217BB593005789ED /* SPCTests.xctest */;
+			productReference = 30607FA2217BB593005789ED /* Local_ConcertTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		30607FAC217BB593005789ED /* SPCUITests */ = {
+		30607FAC217BB593005789ED /* Local_ConcertUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 30607FBC217BB593005789ED /* Build configuration list for PBXNativeTarget "SPCUITests" */;
+			buildConfigurationList = 30607FBC217BB593005789ED /* Build configuration list for PBXNativeTarget "Local_ConcertUITests" */;
 			buildPhases = (
 				30607FA9217BB593005789ED /* Sources */,
 				30607FAA217BB593005789ED /* Frameworks */,
@@ -179,9 +179,9 @@
 			dependencies = (
 				30607FAF217BB593005789ED /* PBXTargetDependency */,
 			);
-			name = SPCUITests;
+			name = Local_ConcertUITests;
 			productName = TunesUITests;
-			productReference = 30607FAD217BB593005789ED /* SPCUITests.xctest */;
+			productReference = 30607FAD217BB593005789ED /* Local_ConcertUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +210,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 30607F89217BB592005789ED /* Build configuration list for PBXProject "SPC" */;
+			buildConfigurationList = 30607F89217BB592005789ED /* Build configuration list for PBXProject "Local_Concert" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -223,9 +223,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				30607F8D217BB592005789ED /* SPC */,
-				30607FA1217BB593005789ED /* SPCTests */,
-				30607FAC217BB593005789ED /* SPCUITests */,
+				30607F8D217BB592005789ED /* Local_Concert */,
+				30607FA1217BB593005789ED /* Local_ConcertTests */,
+				30607FAC217BB593005789ED /* Local_ConcertUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -262,7 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30607FC0217BBD58005789ED /* PrivacySettings.swift in Sources */,
+				30607FC0217BBD58005789ED /* Local_Concert.swift in Sources */,
 				30607F94217BB593005789ED /* ViewController.swift in Sources */,
 				30607F92217BB593005789ED /* AppDelegate.swift in Sources */,
 			);
@@ -272,7 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30607FA7217BB593005789ED /* TunesTests.swift in Sources */,
+				30607FA7217BB593005789ED /* Local_ConcertTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30607FB2217BB593005789ED /* TunesUITests.swift in Sources */,
+				30607FB2217BB593005789ED /* Local_ConcertUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,12 +289,12 @@
 /* Begin PBXTargetDependency section */
 		30607FA4217BB593005789ED /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 30607F8D217BB592005789ED /* SPC */;
+			target = 30607F8D217BB592005789ED /* Local_Concert */;
 			targetProxy = 30607FA3217BB593005789ED /* PBXContainerItemProxy */;
 		};
 		30607FAF217BB593005789ED /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 30607F8D217BB592005789ED /* SPC */;
+			target = 30607F8D217BB592005789ED /* Local_Concert */;
 			targetProxy = 30607FAE217BB593005789ED /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -433,7 +433,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SPC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = abe.gtHacks.SPC;
+				PRODUCT_BUNDLE_IDENTIFIER = "abe.gtHacks.Local-Concert";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -447,7 +447,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SPC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = abe.gtHacks.SPC;
+				PRODUCT_BUNDLE_IDENTIFIER = "abe.gtHacks.Local-Concert";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -466,7 +466,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SPC.app/SPC";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Local_Concert.app/Local_Concert";
 			};
 			name = Debug;
 		};
@@ -482,7 +482,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SPC.app/SPC";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Local_Concert.app/Local_Concert";
 			};
 			name = Release;
 		};
@@ -519,7 +519,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		30607F89217BB592005789ED /* Build configuration list for PBXProject "SPC" */ = {
+		30607F89217BB592005789ED /* Build configuration list for PBXProject "Local_Concert" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				30607FB4217BB593005789ED /* Debug */,
@@ -528,7 +528,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		30607FB6217BB593005789ED /* Build configuration list for PBXNativeTarget "SPC" */ = {
+		30607FB6217BB593005789ED /* Build configuration list for PBXNativeTarget "Local_Concert" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				30607FB7217BB593005789ED /* Debug */,
@@ -537,7 +537,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		30607FB9217BB593005789ED /* Build configuration list for PBXNativeTarget "SPCTests" */ = {
+		30607FB9217BB593005789ED /* Build configuration list for PBXNativeTarget "Local_ConcertTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				30607FBA217BB593005789ED /* Debug */,
@@ -546,7 +546,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		30607FBC217BB593005789ED /* Build configuration list for PBXNativeTarget "SPCUITests" */ = {
+		30607FBC217BB593005789ED /* Build configuration list for PBXNativeTarget "Local_ConcertUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				30607FBD217BB593005789ED /* Debug */,

@@ -23,7 +23,7 @@
             </objects>
             <point key="canvasLocation" x="-470.39999999999998" y="83.658170914542737"/>
         </scene>
-        <!--SPC-->
+        <!--Local_Concert-->
         <scene sceneID="Jhu-P0-QZw">
             <objects>
                 <tableViewController id="TLh-p9-09G" customClass="SongsViewController" customModule="Tunes" customModuleProvider="target" sceneMemberID="viewController">
@@ -46,7 +46,7 @@
                             <outlet property="delegate" destination="TLh-p9-09G" id="I30-7W-i8e"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="SPC" id="T3Z-rd-y9s">
+                    <navigationItem key="navigationItem" title="Local_Concert" id="T3Z-rd-y9s">
                         <barButtonItem key="rightBarButtonItem" systemItem="search" id="KrL-Tz-g67">
                             <connections>
                                 <action selector="searchButtonPresed:" destination="TLh-p9-09G" id="jNS-C6-c1I"/>
